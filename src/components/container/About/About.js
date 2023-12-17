@@ -34,7 +34,7 @@ const About = () => {
           transition={{ duration: 1 }}
         >
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae at rem, tenetur ad ipsa sequi, optio eius laudantium vero minus maxime laborum est et nemo consequatur nostrum distinctio sed, nulla doloribus officiis ea eligendi explicabo.</p>
+          <p>Hi Everyone , My Name is Rahul Khandelwal. A Software Engineer , Full Stack Developer </p>
           {bios.map(bio => {
             return (
               <div className="bio" key={bio.id}>

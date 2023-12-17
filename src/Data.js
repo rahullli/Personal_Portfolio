@@ -51,12 +51,24 @@ export const icons = [<FaHtml5 />, <FaCss3 />, <DiJavascript />, <SiTypescript /
 export const experiences = [
   {
     id: 1,
+    year: "2023",
+    position: "Associate Software Engineer",
+    company: "SOTI"
+  },
+  {
+    id: 2,
     year: "2022",
-    position: "Data Structures and Algorithms Instructor ",
+    position: "Software Engineer Intern",
+    company: "Cheerio"
+  },
+  {
+    id: 3,
+    year: "2022",
+    position: "Data Structures and Algorithms Instructor",
     company: "10X academy"
   },
   {
-    di: 2,
+    id: 4,
     year: "2021",
     position: "Problem Setter",
     company: "Freelancer"
@@ -135,14 +147,14 @@ export const workNavs = [
 ]
 
 export const contacts = [
-  {
-    id: 1,
-    icon: <FaMapMarkerAlt />,
-    infoText: "91, Patel Nagar , Jhotwara, Jaipur (India)"
-  },
+  // {
+  //   id: 1,
+  //   icon: <FaMapMarkerAlt />,
+  //   infoText: "91, Patel Nagar , Jhotwara, Jaipur (India)"
+  // },
   {
     id: 2,
-    // icon: <FaPaperPlane />,
+    icon: <FaPaperPlane />,
     infoText: "khandelwalr213@gmail.com"
   },
   {
